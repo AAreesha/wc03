@@ -35,9 +35,24 @@
   Prove or disprove that the class of regular languages is closed under $F$.
 
   % Uncomment below to enter your solution.
-  % \begin{solution}
-    
-  % \end{solution}
+  \begin{solution}
+    \\
+    Lets assume there is a regular language L that is recognized by a finite automaton called M.
+    \\ 
+    In terms of mathematical notation: \\
+    M = $\{Q,\sum,q,\delta,F\}$
+    \\ \\
+    Let x be a string accepted by M. If we put this string the above function, we will obtain a reversed form of it.
+    \\ \\
+    If all the strings accepted by M are reversed we will obtain a new language F(L).
+    \\ \\
+    Now let's construct a NFA M' which recognizes F(L). We construct a NFA and not a DFA because the machine M has been reversed leading to the involvement of epsilon.
+    \\ 
+    M = $\{Q,\sum,q,\delta ',F\}$
+    \\
+    \\ 
+    The automatons 
+  \end{solution}
   
 \end{questions}
 \end{document}
